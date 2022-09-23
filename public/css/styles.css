@@ -1,1 +1,69 @@
-header { font-family: roboto}
+body { font-family: 'Roboto', sans-serif;
+background-color: #EAC926;
+font-size: 12px;
+color: #666;}
+.titulares{
+    font-size: 24px;
+}
+
+.precios{
+    font-size: 18px;
+}
+
+.descuentos{
+    font-size: 16px;
+}
+
+.descripciones{
+    font-size: 16px;
+}
+
+header{
+    background-color: #EAC926;
+    color: #666;
+}
+
+#centrar{
+    text-align: center;
+}
+
+.icons-header{
+    color: #666;
+}
+
+.burger-menu{
+    
+    line-height: 50px;
+    text-align: center;
+    background-color: #1259c3;
+    background-position: center;
+    width: 100%;
+}
+
+.contenedor-menu{
+    
+    line-height: 50px;
+    text-align: center;
+
+}
+
+
+.icono-burger{
+    background-color: #1259c3;
+    color: white;
+}
+
+footer{
+    background-color: #ebebeb;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.icons-footer{
+    color: #1259c3;
+
+}
+
+#sep{
+    height: 10px;
+}
