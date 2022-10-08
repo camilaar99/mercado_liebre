@@ -54,7 +54,7 @@ article {
 
 header {
     background-color: #EAC926;
-    height: 150px;
+    height: 120px;
 }
 
 .logo {
@@ -102,6 +102,11 @@ input {
 
 }
 
+.contenedor-menu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 .burger-menu {
     display: flex;
@@ -114,6 +119,7 @@ input {
     color: white;
     border-radius: 15%;
     height: 1.5rem;
+    
 }
 
 .burger-menu i {
@@ -401,6 +407,9 @@ input.checkbox {
         display: block;
     }
 
+    header{
+        height: fit-content;
+    }
     header .logo {
         display: flex;
         justify-content: space-between;
@@ -459,6 +468,7 @@ input.checkbox {
         padding: 3px;
         font-style: normal;
         text-decoration: none;
+        margin-bottom: 5px;
         box-sizing: border-box;
 
     }
@@ -660,6 +670,9 @@ input.checkbox {
 }
 
 @media (min-width: 1200px) {
+    header{
+        height: fit-content;
+    }
 
     .login-box{
         height: fit-content;
@@ -679,7 +692,7 @@ input.checkbox {
     
     }
 
-    .logo .navbar {
+     .navbar {
         max-width: 1200px;
         margin: auto;
     }
