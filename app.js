@@ -3,11 +3,11 @@ const app=express()
 const path=require('path');
 
 const publicPath=path.resolve(__dirname,'./public')
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.static(publicPath))
 
-app.listen(port,()=> console.log("Servidor levantado en el puerto ${port} https://localhost:${port}"))
+app.listen(PORT,()=> console.log("Servidor levantado en el puerto ${port} https://localhost:${port}"))
 
 app.get('/',(req,res)=>{
     let ruta=path.resolve(__dirname, './views/home.html')
