@@ -729,9 +729,6 @@ input.checkbox {
         padding: 2vw 1vw;
     }
 
-    * {
-        max-width: 1200px;
-    }
 
     footer {
         display: flex;
